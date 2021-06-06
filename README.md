@@ -7,7 +7,7 @@ The purpose of this project was to create a binary classifer that will predict w
 * Compiling, Training, and Evaluating the Model
 * Model Optimization
 
-## Results: Using bulleted lists and images to support your answers, address the following questions.
+## Results: 
 
 ### Data Preprocessing
 * **What variable(s) are considered the target(s) for your model?**
@@ -18,9 +18,9 @@ The purpose of this project was to create a binary classifer that will predict w
   * Columns EIN and NAME was variables that are neither targets nor features since they are each unique to each organization and should be removed since they are identifiers and have no impact on the outcomes. 
 
 ### Compiling, Training, and Evaluating the Model
-* How many neurons, layers, and activation functions did you select for your neural network model, and why?
-* Were you able to achieve the target model performance?
-* What steps did you take to try and increase model performance?
+* **How many neurons, layers, and activation functions did you select for your neural network model, and why?**
+* **Were you able to achieve the target model performance?**
+* **What steps did you take to try and increase model performance?**
 
 
 ### Summary:
