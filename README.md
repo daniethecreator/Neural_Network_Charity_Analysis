@@ -15,7 +15,7 @@ The purpose of this project was to create a binary classifer that will predict w
 * **What variable(s) are considered to be the features for your model?**
   * APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATION, and ASK_AMT are all potential variables that could be considered as features for the model, although part of the optimization may be dropping a few that may not be effective in helping the model predict outcomes accurately. 
 * **What variable(s) are neither targets nor features, and should be removed from the input data?**
- * Columns EIN and NAME was variables that are neither targets nor features since they are each unique to each organization and should be removed since they are identifiers and have no impact on the outcomes. 
+  * Columns EIN and NAME was variables that are neither targets nor features since they are each unique to each organization and should be removed since they are identifiers and have no impact on the outcomes. 
 
 ### Compiling, Training, and Evaluating the Model
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
