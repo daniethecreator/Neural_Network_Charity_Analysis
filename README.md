@@ -23,6 +23,6 @@ The purpose of this project was to create a binary classifer that will predict w
 * **What steps did you take to try and increase model performance?**
 
 
-### Summary:
+## Summary:
 The model ended up with the accuracy score of 73% after optimization. The initial neural network had a accuracy score of 51%. Althogh the model increased in accuracy, it was not able to obtain the goal of over 75% after three tries of optimization.  Further tweaking may be required, but also overfitting may become an issues as the accuracy started decreasing after 100 epochs. To help improve the models accuracy, further tweaking(removing columns, changing hidden layers, ect) may be needed or additional data to help the training model improve its accuracy.
 
