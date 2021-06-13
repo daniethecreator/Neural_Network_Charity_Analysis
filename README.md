@@ -19,7 +19,7 @@ The purpose of this project was to create a binary classifer that will predict w
 
 ### Compiling, Training, and Evaluating the Model
 * **How many neurons, layers, and activation functions did you select for your neural network model, and why?**
- * In my first optimization, I added the standard 3 hidden layers - relu, tahn, relu and activation sigmoid. The first layer had 180 noeds, the second 150, and the third 120 to keep them divisible by 3. 
+ * In my first optimization, I added the standard 3 hidden layers - relu, tahn, relu and activation sigmoid. The first layer had 180 nodes, the second 150, and the third 120 to keep them divisible by 3. 
   ![Screenshot!](./Resources/Optimization_1.png)
  * Since my first attempt at optimization failed to meet the 75% accuracy threshold, I dropped more columns 'STATUS' and 'SPECIAL_CONSIDERATIONS" and lessened the nodes to start at 120 on the first layer, go down to 90 on the second, and 30 on the third. I also changed all hidden layers besides activation to relu since in past activities, I had success using the relu, relu, relu, sigmoid activation. 
    ![Screenshot!](./Resources/Optimization_2.png)
